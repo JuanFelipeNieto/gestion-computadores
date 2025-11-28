@@ -1,0 +1,155 @@
+
+
+body {
+    background-color: #f4f6f9;  /* gris claro */
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.container {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.08);
+    margin-bottom: 40px;
+}
+
+
+
+h1, h2, h3 {
+    color: #343a40; /* gris oscuro */
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+table {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.table thead {
+    background-color: #004085 !important; /* azul oscuro */
+    color: white;
+}
+
+.table tbody tr:hover {
+    background-color: #e9f2ff; /* azul muy claro */
+}
+
+
+.btn-primary {
+    background-color: #0069d9 !important;
+    border-color: #0062cc !important;
+}
+
+.btn-success {
+    background-color: #28a745 !important;
+    border-color: #218838 !important;
+}
+
+.btn-warning {
+    color: #fff !important;
+    background-color: #ff9800 !important;
+    border-color: #fb8c00 !important;
+}
+
+.btn-danger {
+    background-color: #dc3545 !important;
+    border-color: #c82333 !important;
+}
+
+
+label {
+    font-weight: bold;
+    color: #555;
+}
+
+input.form-control,
+select.form-control {
+    border-radius: 6px;
+    border: 1px solid #ced4da;
+}
+
+input.form-control:focus,
+select.form-control:focus {
+    border-color: #80bdff;
+    box-shadow: 0 0 5px rgba(0,123,255,0.4);
+}
+
+
+
+.navbar {
+    border-bottom: 3px solid #0069d9;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+
+
+.alert {
+    border-radius: 6px;
+    padding: 12px;
+}
+
+.alert-success {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+
+
+.login-wrapper {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-box {
+    width: 350px;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+}
+
+.login-box h2 {
+    text-align: center;
+    color: #004085;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+
+.login-box .form-control {
+    border-radius: 6px;
+    padding: 10px;
+}
+
+.login-box .btn-login {
+    width: 100%;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 6px;
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+
+.login-box .btn-login:hover {
+    background-color: #0056b3;
+}
+
+.login-box a {
+    display: block;
+    text-align: center;
+    margin-top: 12px;
+    color: #0069d9;
+    text-decoration: none;
+}
+
+.login-box a:hover {
+    text-decoration: underline;
+}
